@@ -82,13 +82,13 @@ export const FACILITIES = [
     {
         name: 'Cooling Unit', slug: 'cooling-unit', defaultCount: 0, category: 'Environment', hasLevels: false,
         unlocks: { 1: 7 },
-        counts: [0, 0, 0, 0, 0, 0, 1],
+        counts: [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2],
         tooltip: "Provides Cool or Freeze growing conditions for crops that need one&#10;The calculator picks whichever mode is more profitable.&#10;Covers a 9x9 area around itself; how many plots fit depends on what shares it."
     },
     {
         name: 'Sunlamp', slug: 'sunlamp', defaultCount: 0, category: 'Environment', hasLevels: false,
         unlocks: { 1: 9 },
-        counts: [0, 0, 0, 0, 0, 0, 0, 0, 1],
+        counts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2],
         tooltip: "Provides Adequate growing conditions for crops that need one&#10;Covers a 9x9 area around itself; how many plots fit depends on what shares it."
     },
     {
@@ -124,13 +124,13 @@ export const FACILITIES = [
     {
         name: 'Phonolfactory Table', slug: 'phonolfactory-table', defaultCount: 0, category: 'Materials Processing', hasWorker: true, ability: 'Perfumery', personality: 'Instinctive',
         unlocks: { 1: 6, 2: 7, 3: 10, 4: 14, 5: 17, 6: 19 },
-        counts: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        counts: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2],
         tooltip: "Lv.1: Bamboo Joss Stick&#10;Lv.2: Rose Incense, Cherry Incense&#10;Lv.3: Lavender Incense, Lemon Incense, Advanced Lemon Incense&#10;Lv.4: Herbal Ginseng Aroma&#10;Lv.5: Soap, Premium Soap&#10;Lv.6: Orange Flower Incense, Mixed Perfume, Lotion, Premium Mixed Perfume"
     },
     {
         name: 'Bouncy Brew Keg', slug: 'bouncy-brew-keg', defaultCount: 0, category: 'Materials Processing', hasWorker: true, ability: 'Water', personality: 'Energetic',
         unlocks: { 1: 6, 2: 9, 3: 13, 4: 17, 5: 19 },
-        counts: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        counts: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2],
         tooltip: "Lv.1: Wheat Tea, Toasted Rice Green Tea&#10;Lv.2: Potato Kvass, Strawberry Juice, Apple Juice, Sugarcane Juice&#10;Lv.3: Grape Juice, Ginseng Water, Grape Lemon Drink, Walnut Milk&#10;Lv.4: Cranberry Juice, Coconut Cooler&#10;Lv.5: Agave Drink, Hot Cocoa, Coconut Cocoa, Orange Flower Dew"
     },
     {
